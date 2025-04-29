@@ -7,12 +7,14 @@ public class Employee {
         this.name = name;
         this.id = id;
         this.salary = salary;
+        this.salary = salary;
     }
 
     public void displayInfo() {
         System.out.println("Employee ID: " + id);
         System.out.println("Employee Name: " + name);
         System.out.println("Salary: " + salary);
+        System.out.println("Salary after tax: " + (salary - (salary * 0.1)));
     }
 
     public static void main(String[] args) {
